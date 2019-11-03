@@ -30,7 +30,7 @@ The purpose of this repo is to create an automated rice script to get a fully co
 Run `sudo sh install.sh`
 
 ## YouTube Channel
-https://www.youtube.com/channel/UCdSXkHPv39bDKaBk5TOReNg?view_as=subscriber
+[Prakash Vishwakarma YouTube Channel](https://www.youtube.com/channel/UCdSXkHPv39bDKaBk5TOReNg?view_as=subscriber)
 
 ## Credits
 The i3-gaps-deb script is from here
