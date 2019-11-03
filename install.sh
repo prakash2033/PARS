@@ -7,6 +7,8 @@ then
 	exit
 fi
 
+echo "Prakash i3-gaps auto rice installation"
+
 # Run i3-gaps-deb
 ./i3-gaps-deb
 echo "i3-gaps installed"
@@ -47,3 +49,13 @@ echo "#6 .bash_profile file copied"
 #7
 sudo cp .vimrc /home/$1/
 echo "#8 .vimrc file copied..."
+
+#8
+sudo cp -r -v .local/ /home/$1/
+echo "#8 .local binaries copied..."
+
+#9
+sudo cp -r -v .scripts/ /home/$1/
+echo "#9 .script files copied..."
+
+echo "PARBS Installation Completed..."
