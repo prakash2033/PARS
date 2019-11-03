@@ -41,7 +41,7 @@ The purpose of this repo is to create an automated rice script to get a fully co
 ![Alt text](/screenshots/pic-selected-191104-0009-10.png?raw=true "neomutt terminal based email client")
 
 ## Untested and could be buggy!
-PARS is yet not installed not on any fresh debian install.
+PARS is yet not installed on any fresh debian install.
 If you want to give it a try at your own risk, certainly it won't break the debian os, but may not work as expected.
 You can write to me at prakash2033@outlook.com
 
