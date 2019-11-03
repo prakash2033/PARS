@@ -1,0 +1,13 @@
+URxvt.transparent: true
+URxvt.scrollBar: false
+URxvt.fading: 25%
+URxvt*background:#000000
+URxvt.foreground:white
+URxvt.tintColor: #111111
+URxvt.perl-ext-common: ...,font-size
+URxvt.letterSpace: -2
+URxvt.borderColor: #888888
+URxvt.keysym.C-equal:     font-size:increase
+URxvt.keysym.C-slash:   font-size:decrease
+URxvt.keysym.C-S-equal:  font-size:reset
+urxvt*font: xft:DejaVu Sans Mono:pixelsize=14
