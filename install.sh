@@ -14,7 +14,7 @@ echo "Prakash i3-gaps auto rice installation"
 echo "i3-gaps installed"
 
 # install appplications
-sudo apt-get install i3 xorg network-manager-gnome neofetch ranger chromium pulseaudio rxvt-unicode fonts-indic zathura neovim libnotify-bin scrot
+sudo apt-get install i3 xorg network-manager-gnome neofetch ranger chromium pulseaudio rxvt-unicode fonts-indic zathura neovim libnotify-bin maim
 
 # unmute audio and set volume to 50%
 #0
@@ -63,5 +63,9 @@ echo "#8 .local binaries copied..."
 #9
 sudo cp -r -v .scripts/ /home/$1/
 echo "#9 .script files copied..."
+
+#10
+sudo mkdir documents downloads pictures videos screenshots
+echo "#10 default folder structure created"
 
 echo "PARBS Installation Completed..."

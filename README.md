@@ -6,7 +6,7 @@ The purpose of this repo is to create an automated rice script to get a fully co
 
 ## Pre-requisite
 - Minimum debian install (debian 9 stretch or debian 10 buster)
-- For WiFi 
+- For WiFi
 ```
    nano /etc/network/interfaces
    allow-hotplug wlp3s0
@@ -27,7 +27,12 @@ The purpose of this repo is to create an automated rice script to get a fully co
 - Exit from `root` and login as normal user
 
 ## How to install
-Run `sudo sh install.sh`
+Run
+```
+   git clone https://github.com/prakash2033/PARBS.git
+   cd PARBS/
+   sudo sh install.sh
+```
 
 ## YouTube Channel
 [Prakash Vishwakarma YouTube Channel](https://www.youtube.com/channel/UCdSXkHPv39bDKaBk5TOReNg?view_as=subscriber)
