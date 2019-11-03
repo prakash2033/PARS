@@ -14,7 +14,13 @@ echo "Prakash i3-gaps auto rice installation"
 echo "i3-gaps installed"
 
 # install appplications
-sudo apt-get install urxvt
+sudo apt-get install i3 xorg network-manager-gnome neofetch ranger chromium pulseaudio rxvt-unicode fonts-indic zathura neovim libnotify-bin scrot
+
+# unmute audio and set volume to 50%
+#0
+pactl set-sink-mute 0 false
+pactl set-sink-volume @DEFAULT_SINK@ 50%
+echo "#0 unmuted audio and set volume to 50%"
 
 # copy dot file to system
 #1
