@@ -27,8 +27,8 @@ The purpose of this repo is to create an automated rice script to get a fully co
 - Exit from `root` and login as normal user
 
 ## How to install
-Run
 ```
+   sudo apt-get install git
    git clone https://github.com/prakash2033/PARBS.git
    cd PARBS/
    sudo sh install.sh
