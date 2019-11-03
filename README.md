@@ -33,6 +33,11 @@ The purpose of this repo is to create an automated rice script to get a fully co
    cd PARBS/
    sudo sh install.sh
 ```
+## Screenshots
+![Alt text](/screenshots/pic-selected-191103-2335-40.png?raw=true "Home Screen with Lain wallpaper")
+![Alt text](/screenshots/pic-selected-191103-2336-25.png?raw=true "neofetch and chromium browser")
+![Alt text](/screenshots/pic-selected-191103-2337-30.png?raw=true "urxvt terminal")
+![Alt text](/screenshots/pic-selected-191103-2337-58.png?raw=true "ranger file manager and htop")
 
 ## YouTube Channel
 [Prakash Vishwakarma YouTube Channel](https://www.youtube.com/channel/UCdSXkHPv39bDKaBk5TOReNg?view_as=subscriber)
