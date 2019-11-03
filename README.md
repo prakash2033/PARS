@@ -31,7 +31,7 @@ The purpose of this repo is to create an automated rice script to get a fully co
    sudo apt-get install git
    git clone https://github.com/prakash2033/PARBS.git
    cd PARBS/
-   sudo sh install.sh
+   sudo sh install.sh <username>
 ```
 ## Screenshots
 ![Alt text](/screenshots/pic-selected-191103-2335-40.png?raw=true "Home Screen with Lain wallpaper")
