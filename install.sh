@@ -68,4 +68,9 @@ echo "#9 .script files copied..."
 sudo mkdir documents downloads pictures videos screenshots
 echo "#10 default folder structure created"
 
+#11
+sudo mkdir /home/$1/.config/ranger
+sudo cp rc.conf /home/$1/.config/ranger/
+echo "#1 ranger congif file copied..."
+
 echo "PARBS Installation Completed..."
