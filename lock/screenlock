@@ -1,0 +1,14 @@
+#!/usr/bin/env sh
+#Approximate timeout rate
+timeout="10000"
+
+#Take screenshot:
+[ -e /tmp/screen.png ] && rm /tmp/screen.png &&
+scrot /tmp/screen.png
+
+#Add the lock to the swirled and blurred image:
+[[ -f ~/.config/i3/lock.png ]] &&
+convert /tmp/screen.png -paint 10 -swirl 360 ~/.config/i3/lock.png -gravity center -composite -matte /tmp/screen.png
+
+#Lock it up
+i3lock -e -f -c 000000 -i /tmp/screen.png

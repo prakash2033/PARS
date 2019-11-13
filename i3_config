@@ -1,5 +1,4 @@
 # File originally by Luke Smith <https://lukesmith.xyz>
-
 # This config file will use environmental variables such as $BROWSER and $TERMINAL.
 # You can set these variables in ~/.profile or ~/.bash_profile if you have it as below:
 #
@@ -241,7 +240,8 @@ bindsym $mod + shift + x exec	prompt "Shutdown computer?" "sudo -A shutdown -h n
 
 bindsym $mod + shift + BackSpace exec	prompt "Reboot computer?" "sudo -A shutdown -r now"
 
-bindsym $mod + x	exec	mpc pause; pauseallmpv; i3lock -e -f -c 1d2021; xset dpms force off
+bindsym $mod + x	exec	mpc pause; pauseallmpv; i3lock -e -f -c 1d2021; xset dpms force offsuper + x
+#exec mpc pause; pauseallmpv; screenlock; xset dpms force off
 
 # Recording
 # Take screenshot
