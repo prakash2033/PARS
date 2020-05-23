@@ -29,7 +29,7 @@ The purpose of this repo is to create an automated rice script to get a fully co
 ## How to install
 ```
    sudo apt-get install git
-   git clone https://github.com/prakash2033/PARBS.git
+   git clone https://github.com/prakash2033/PARS.git
    cd PARBS/
    sudo sh install.sh <username>
 ```
