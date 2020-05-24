@@ -14,7 +14,7 @@ echo "Prakash i3-gaps auto rice installation"
 echo "i3-gaps installed"
 
 # install appplications
-sudo apt-get install i3 xorg network-manager-gnome neofetch ranger chromium pulseaudio rxvt-unicode fonts-indic zathura neovim libnotify-bin maim
+sudo apt-get install i3 xorg network-manager-gnome neofetch ranger chromium pulseaudio rxvt-unicode fonts-indic zathura neovim libnotify-bin maim feh
 
 # unmute audio and set volume to 50%
 #0
