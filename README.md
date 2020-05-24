@@ -40,12 +40,12 @@ The purpose of this repo is to create an automated rice script to get a fully co
 ![Alt text](/screenshots/pic-selected-191103-2337-58.png?raw=true "ranger file manager and htop")
 ![Alt text](/screenshots/pic-selected-191104-0009-10.png?raw=true "neomutt terminal based email client")
 
-## Untested and could be buggy!
-PARS is yet not installed on any fresh debian install.
-If you want to give it a try at your own risk, certainly it won't break the debian os, but may not work as expected.
+## Tested
+PARS is tested on fresh debian install.
 You can write to me at prakash2033@outlook.com
 
 ## Known Bugs
+- Permission issue while opening ranger, do `sudo chown username: ranger` to give write permission to your user
 - Super + F1 doesn't load help file
 - Shift + Print full screen doesn't take screenshot properly, though selected area option works properly
 - Few keybindings do not work
